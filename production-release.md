@@ -22,7 +22,7 @@ and how to deal with them from a branching point of view.
 
 ## Branches Overview
 
-![Release Deployment workflow](https://github.com/princevish/document/images/release-deployment.png)
+![Release Deployment workflow](https://raw.githubusercontent.com/princevish/document/main/images/release-deployment.png)
 
 | Branch        | Protected? | Base Branch | Description    |
 | :-------------|:-----------|:------------|:---------------|
@@ -37,7 +37,7 @@ and how to deal with them from a branching point of view.
 
 ### Develop a new feature
 
-![Feature branch](https://github.com/princevish/document/images/feature-branch.png)
+![Feature branch](https://raw.githubusercontent.com/princevish/document/main/images/feature-branch.png)
 
 1. Make sure your `develop` branch is up-to-date
 
@@ -77,7 +77,7 @@ There's nothing special about that. Each developer follows the above [Develop a 
 
 ### Create and deploy a release
 
-![Create and deploy a release](https://github.com/princevish/document/images/release-release.png)
+![Create and deploy a release](https://raw.githubusercontent.com/princevish/document/main/images/release-release.png)
 
 1. Merge `master` into `develop` to ensure the new release will contain the
    latest production code. This reduces the chance of a merge conflict during
@@ -257,7 +257,7 @@ This section outlines specific scenarios and the steps to take to ensure success
 
 The process for tagging and merging is a bit different when deploying a bundle, the steps to take are outlined here:
 
-![Bundle Flow](https://github.com/princevish/document/images/release-deployment-bundle.png)
+![Bundle Flow](https://raw.githubusercontent.com/princevish/document/main/images/release-deployment-bundle.png)
 
 1. Ensure all features are merged into `release-v.X.Y.Z`
 
